@@ -2,10 +2,11 @@
 
 ### clone/git
 
-1.  `git clone git@github.com:jimibue/react-rails-router-starter.git <ProjectName>`
-2.  `git remote rm origin`
-3.  create a new repo and add new origin
-4.  `git add remote origin <ulr>`
+1.  `git clone git@github.com:zaratejavier/react-rails-starter.git <ProjectName>`
+2. `cd <ProjectName>`
+3.  `git remote rm origin`
+4.  create a new repo and add new origin
+5.  `git add remote origin <ulr>`
 
 ### Rails
 
@@ -20,6 +21,6 @@
 ### React
 
 1. `cd <ProjectName>/client`
-2. run `yarn`
+2. run `yarn install`
 3. run `yarn start`
 4. open `http://localhost:3000` (make sure rails is on port 3001)
